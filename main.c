@@ -1,5 +1,9 @@
 #include<stdio.h>
 
 int main(){
- printf("Olá mundo, Git!!!");
+  for(int i = 0; i < 5; i++){
+    printf("Olá mundo, Git!!!");
+  }
+
+  return 0;
 }
