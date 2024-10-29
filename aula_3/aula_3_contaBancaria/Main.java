@@ -1,4 +1,4 @@
-package aula_3_contaBancaria;
+package aula_3.aula_3_contaBancaria;
 
 public class Main {
 
