@@ -1,4 +1,4 @@
-package projeto_floyd;
+package aula_3.aula_3_projeto_floyd;
 
 public class Floyd {
 	private int linhas;
