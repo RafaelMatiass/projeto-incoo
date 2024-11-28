@@ -9,7 +9,17 @@ public class ClienteCode {
     calculadora.setOperacao("subtracao");
     System.out.println("Resultado: " + calculadora.calcular());
 
-    calculadora.setOperacao("multiplicacao");
+    calculadora.setOperacao("multiplicar");
     System.out.println("Resultado: " + calculadora.calcular());
+
+    CalculadoraCientifica cientifica = new CalculadoraCientifica(10, 10, "somar");
+    System.out.println("Científica: " + cientifica.calcular());
+
+    cientifica.setOperacao("multiplicar");
+    System.out.println("Científica: " + calculadora.calcular());
+
+    cientifica.setNumero_b(0);
+    cientifica.setOperacao("dividir");
+    System.out.println("Científica: " + cientifica.calcular());
   }
 }
