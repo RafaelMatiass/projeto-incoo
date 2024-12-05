@@ -24,7 +24,7 @@ public class CircularQueue extends Queue {
 	}
 	
 	@Override
-	boolean enqueue(Client client) {
+	protected boolean enqueue(Client client) {
 		if (!isFull()) {
 			elements[end] = client;
 			end += 1;
@@ -38,7 +38,7 @@ public class CircularQueue extends Queue {
 	}
 
 	@Override
-	Client dequeue() {
+	protected Client dequeue() {
 		Client client = null;
 		
 		if (isEmpty()) {
@@ -56,12 +56,12 @@ public class CircularQueue extends Queue {
 	}
 
 	@Override
-	boolean isFull() {
+	protected boolean isFull() {
 		return size == maxsize;
 	}
 
 	@Override
-	boolean isEmpty() {
+	protected boolean isEmpty() {
 		return size == 0;
 	}
 
