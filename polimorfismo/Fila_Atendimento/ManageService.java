@@ -5,7 +5,6 @@ public class ManageService {
 	private Queue defaultQueue;
 	private Queue priorityQueue;
 
-	
 	public ManageService() {
 		defaultQueue = new CircularQueue(20);
 		priorityQueue = new CircularQueue(10);
