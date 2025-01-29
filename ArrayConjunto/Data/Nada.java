@@ -1,4 +1,4 @@
-package projeto_incoo.ArrayConjunto.Data;
+package ArrayConjunto.Data;
 
 public class Nada {
     private static int numero_nada = 0;

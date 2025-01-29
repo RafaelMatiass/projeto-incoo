@@ -1,4 +1,4 @@
-package projeto_incoo.ArrayConjunto;
+package ArrayConjunto;
 
 public class ArrayConjunto<T> implements IConjunto<T>{
     
